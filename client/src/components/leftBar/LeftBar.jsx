@@ -1,16 +1,16 @@
 import "./leftBar.scss";
-import Friends from "../../assets/1.png";
-import Groups from "../../assets/2.png";
-import Memories from "../../assets/5.png";
-import Events from "../../assets/6.png";
-import Codeforces from "../../assets/codeforces.png";
-import Leetcode from "../../assets/leetcode.png";
-import Tutorials from "../../assets/11.png";
-import Courses from "../../assets/12.png";
-import Fund from "../../assets/13.png";
+import Friends from "../../asset/1.png";
+import Groups from "../../asset/2.png";
+import Memories from "../../asset/5.png";
+import Events from "../../asset/6.png";
+import Codeforces from "../../asset/codeforces.png";
+import Leetcode from "../../asset/leetcode.png";
+import Tutorials from "../../asset/11.png";
+import Courses from "../../asset/12.png";
+import Fund from "../../asset/13.png";
 import { AuthContext } from "../../context/authContext";
 import { useContext } from "react";
-
+//
 const LeftBar = () => {
 
   const { currentUser } = useContext(AuthContext);

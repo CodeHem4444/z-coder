@@ -9,7 +9,7 @@ const Posts = ({userId}) => {
       return res.data;
     })
   );
-
+//
   return (
     <div className="posts">
       {error

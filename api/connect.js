@@ -1,6 +1,6 @@
 import pg from "pg";
 import env from "dotenv";
-
+//
 env.config();
 export const db = new pg.Client({
   user: process.env.SESSION_USER,
